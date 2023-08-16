@@ -1,0 +1,17 @@
+C:\Users\muham\OneDrive\Belgeler\GitHub\Repay_Bank\Repay_Bank\Repay_Bank.DataAccessLayer\bin\Debug\net6.0\Repay_Bank.DataAccessLayer.deps.json
+C:\Users\muham\OneDrive\Belgeler\GitHub\Repay_Bank\Repay_Bank\Repay_Bank.DataAccessLayer\bin\Debug\net6.0\Repay_Bank.DataAccessLayer.runtimeconfig.json
+C:\Users\muham\OneDrive\Belgeler\GitHub\Repay_Bank\Repay_Bank\Repay_Bank.DataAccessLayer\bin\Debug\net6.0\Repay_Bank.DataAccessLayer.dll
+C:\Users\muham\OneDrive\Belgeler\GitHub\Repay_Bank\Repay_Bank\Repay_Bank.DataAccessLayer\bin\Debug\net6.0\Repay_Bank.DataAccessLayer.pdb
+C:\Users\muham\OneDrive\Belgeler\GitHub\Repay_Bank\Repay_Bank\Repay_Bank.DataAccessLayer\bin\Debug\net6.0\Repay_Bank.EntityLayer.dll
+C:\Users\muham\OneDrive\Belgeler\GitHub\Repay_Bank\Repay_Bank\Repay_Bank.DataAccessLayer\bin\Debug\net6.0\Repay_Bank.EntityLayer.pdb
+C:\Users\muham\OneDrive\Belgeler\GitHub\Repay_Bank\Repay_Bank\Repay_Bank.DataAccessLayer\obj\Debug\net6.0\Repay_Bank.DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\muham\OneDrive\Belgeler\GitHub\Repay_Bank\Repay_Bank\Repay_Bank.DataAccessLayer\obj\Debug\net6.0\Repay_Bank.DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\muham\OneDrive\Belgeler\GitHub\Repay_Bank\Repay_Bank\Repay_Bank.DataAccessLayer\obj\Debug\net6.0\Repay_Bank.DataAccessLayer.AssemblyInfoInputs.cache
+C:\Users\muham\OneDrive\Belgeler\GitHub\Repay_Bank\Repay_Bank\Repay_Bank.DataAccessLayer\obj\Debug\net6.0\Repay_Bank.DataAccessLayer.AssemblyInfo.cs
+C:\Users\muham\OneDrive\Belgeler\GitHub\Repay_Bank\Repay_Bank\Repay_Bank.DataAccessLayer\obj\Debug\net6.0\Repay_Bank.DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\muham\OneDrive\Belgeler\GitHub\Repay_Bank\Repay_Bank\Repay_Bank.DataAccessLayer\obj\Debug\net6.0\Repay_Bank.DataAccessLayer.csproj.CopyComplete
+C:\Users\muham\OneDrive\Belgeler\GitHub\Repay_Bank\Repay_Bank\Repay_Bank.DataAccessLayer\obj\Debug\net6.0\Repay_Bank.DataAccessLayer.dll
+C:\Users\muham\OneDrive\Belgeler\GitHub\Repay_Bank\Repay_Bank\Repay_Bank.DataAccessLayer\obj\Debug\net6.0\refint\Repay_Bank.DataAccessLayer.dll
+C:\Users\muham\OneDrive\Belgeler\GitHub\Repay_Bank\Repay_Bank\Repay_Bank.DataAccessLayer\obj\Debug\net6.0\Repay_Bank.DataAccessLayer.pdb
+C:\Users\muham\OneDrive\Belgeler\GitHub\Repay_Bank\Repay_Bank\Repay_Bank.DataAccessLayer\obj\Debug\net6.0\Repay_Bank.DataAccessLayer.genruntimeconfig.cache
+C:\Users\muham\OneDrive\Belgeler\GitHub\Repay_Bank\Repay_Bank\Repay_Bank.DataAccessLayer\obj\Debug\net6.0\ref\Repay_Bank.DataAccessLayer.dll

@@ -1,0 +1,14 @@
+C:\Users\muham\OneDrive\Belgeler\GitHub\Repay_Bank\Repay_Bank\Repay_Bank.EntityLayer\bin\Debug\net6.0\Repay_Bank.EntityLayer.deps.json
+C:\Users\muham\OneDrive\Belgeler\GitHub\Repay_Bank\Repay_Bank\Repay_Bank.EntityLayer\bin\Debug\net6.0\Repay_Bank.EntityLayer.runtimeconfig.json
+C:\Users\muham\OneDrive\Belgeler\GitHub\Repay_Bank\Repay_Bank\Repay_Bank.EntityLayer\bin\Debug\net6.0\Repay_Bank.EntityLayer.dll
+C:\Users\muham\OneDrive\Belgeler\GitHub\Repay_Bank\Repay_Bank\Repay_Bank.EntityLayer\bin\Debug\net6.0\Repay_Bank.EntityLayer.pdb
+C:\Users\muham\OneDrive\Belgeler\GitHub\Repay_Bank\Repay_Bank\Repay_Bank.EntityLayer\obj\Debug\net6.0\Repay_Bank.EntityLayer.csproj.AssemblyReference.cache
+C:\Users\muham\OneDrive\Belgeler\GitHub\Repay_Bank\Repay_Bank\Repay_Bank.EntityLayer\obj\Debug\net6.0\Repay_Bank.EntityLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\muham\OneDrive\Belgeler\GitHub\Repay_Bank\Repay_Bank\Repay_Bank.EntityLayer\obj\Debug\net6.0\Repay_Bank.EntityLayer.AssemblyInfoInputs.cache
+C:\Users\muham\OneDrive\Belgeler\GitHub\Repay_Bank\Repay_Bank\Repay_Bank.EntityLayer\obj\Debug\net6.0\Repay_Bank.EntityLayer.AssemblyInfo.cs
+C:\Users\muham\OneDrive\Belgeler\GitHub\Repay_Bank\Repay_Bank\Repay_Bank.EntityLayer\obj\Debug\net6.0\Repay_Bank.EntityLayer.csproj.CoreCompileInputs.cache
+C:\Users\muham\OneDrive\Belgeler\GitHub\Repay_Bank\Repay_Bank\Repay_Bank.EntityLayer\obj\Debug\net6.0\Repay_Bank.EntityLayer.dll
+C:\Users\muham\OneDrive\Belgeler\GitHub\Repay_Bank\Repay_Bank\Repay_Bank.EntityLayer\obj\Debug\net6.0\refint\Repay_Bank.EntityLayer.dll
+C:\Users\muham\OneDrive\Belgeler\GitHub\Repay_Bank\Repay_Bank\Repay_Bank.EntityLayer\obj\Debug\net6.0\Repay_Bank.EntityLayer.pdb
+C:\Users\muham\OneDrive\Belgeler\GitHub\Repay_Bank\Repay_Bank\Repay_Bank.EntityLayer\obj\Debug\net6.0\Repay_Bank.EntityLayer.genruntimeconfig.cache
+C:\Users\muham\OneDrive\Belgeler\GitHub\Repay_Bank\Repay_Bank\Repay_Bank.EntityLayer\obj\Debug\net6.0\ref\Repay_Bank.EntityLayer.dll
