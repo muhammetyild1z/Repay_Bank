@@ -6,7 +6,13 @@ using System.Threading.Tasks;
 
 namespace Repay_Bank.DTO.DTOS.AppUserDtos
 {
-    internal class AppUserRegisterDtos
+    public class AppUserRegisterDtos
     {
+        public string Name { get; set; }
+        public string Surname { get; set; }
+        public string Username { get; set; }
+        public string Email { get; set; }
+        public string Password { get; set; }
+        public string ConfirmPassword { get; set; }
     }
 }
