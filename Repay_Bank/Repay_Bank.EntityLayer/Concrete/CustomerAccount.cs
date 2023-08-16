@@ -15,5 +15,7 @@ namespace Repay_Bank.EntityLayer.Concrete
         public string CustomerAccountCurrency { get; set; } //döviz türü
         public decimal CustomerAccountBalance { get; set; }
         public string BankBranch { get; set; }//şube
+        public int AppUserID { get; set; }
+        public AppUser AppUser { get; set; }
     }
 }

@@ -14,5 +14,6 @@ namespace Repay_Bank.EntityLayer.Concrete
         public string District { get; set; }
         public string City { get; set; }
         public string CustomerImageUrl { get; set; }
+        public List<CustomerAccount> CustomerAccounts { get; set; }
     }
 }
