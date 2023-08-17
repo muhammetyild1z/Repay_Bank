@@ -17,3 +17,5 @@ C:\Users\muham\OneDrive\Belgeler\GitHub\Repay_Bank\Repay_Bank\Repay_Bank.Busines
 C:\Users\muham\OneDrive\Belgeler\GitHub\Repay_Bank\Repay_Bank\Repay_Bank.BusinessLayer\obj\Debug\net6.0\Repay_Bank.BusinessLayer.pdb
 C:\Users\muham\OneDrive\Belgeler\GitHub\Repay_Bank\Repay_Bank\Repay_Bank.BusinessLayer\obj\Debug\net6.0\Repay_Bank.BusinessLayer.genruntimeconfig.cache
 C:\Users\muham\OneDrive\Belgeler\GitHub\Repay_Bank\Repay_Bank\Repay_Bank.BusinessLayer\obj\Debug\net6.0\ref\Repay_Bank.BusinessLayer.dll
+C:\Users\muham\OneDrive\Belgeler\GitHub\Repay_Bank\Repay_Bank\Repay_Bank.BusinessLayer\bin\Debug\net6.0\Repay_Bank.DTO.dll
+C:\Users\muham\OneDrive\Belgeler\GitHub\Repay_Bank\Repay_Bank\Repay_Bank.BusinessLayer\bin\Debug\net6.0\Repay_Bank.DTO.pdb

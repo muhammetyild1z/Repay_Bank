@@ -77,3 +77,9 @@ C:\Users\muham\OneDrive\Belgeler\GitHub\Repay_Bank\Repay_Bank\Repay_Bank.Present
 C:\Users\muham\OneDrive\Belgeler\GitHub\Repay_Bank\Repay_Bank\Repay_Bank.PresentationLayer\obj\Debug\net6.0\Repay_Bank.PresentationLayer.pdb
 C:\Users\muham\OneDrive\Belgeler\GitHub\Repay_Bank\Repay_Bank\Repay_Bank.PresentationLayer\obj\Debug\net6.0\Repay_Bank.PresentationLayer.genruntimeconfig.cache
 C:\Users\muham\OneDrive\Belgeler\GitHub\Repay_Bank\Repay_Bank\Repay_Bank.PresentationLayer\obj\Debug\net6.0\ref\Repay_Bank.PresentationLayer.dll
+C:\Users\muham\OneDrive\Belgeler\GitHub\Repay_Bank\Repay_Bank\Repay_Bank.PresentationLayer\bin\Debug\net6.0\FluentValidation.dll
+C:\Users\muham\OneDrive\Belgeler\GitHub\Repay_Bank\Repay_Bank\Repay_Bank.PresentationLayer\bin\Debug\net6.0\FluentValidation.AspNetCore.dll
+C:\Users\muham\OneDrive\Belgeler\GitHub\Repay_Bank\Repay_Bank\Repay_Bank.PresentationLayer\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\muham\OneDrive\Belgeler\GitHub\Repay_Bank\Repay_Bank\Repay_Bank.PresentationLayer\bin\Debug\net6.0\Repay_Bank.DTO.dll
+C:\Users\muham\OneDrive\Belgeler\GitHub\Repay_Bank\Repay_Bank\Repay_Bank.PresentationLayer\bin\Debug\net6.0\Repay_Bank.DTO.pdb
+C:\Users\muham\OneDrive\Belgeler\GitHub\Repay_Bank\Repay_Bank\Repay_Bank.PresentationLayer\obj\Debug\net6.0\Repay_Bank.PresentationLayer.MvcApplicationPartsAssemblyInfo.cs
