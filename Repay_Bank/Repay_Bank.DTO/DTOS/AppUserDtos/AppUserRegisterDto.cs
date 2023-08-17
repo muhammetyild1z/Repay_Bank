@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Repay_Bank.DTO.DTOS.AppUserDtos
 {
-    public class AppUserRegisterDtos
+    public class AppUserRegisterDto
     {
         public string Name { get; set; }
         public string Surname { get; set; }

@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "6IwGOAfAVLJcaYetJlr9gLre3xXPDE1sBGk/zAWjTM7Oay3tlHIKwd/ZA+89BaAS96uy8cmhsi3maFcaB755yA==",
+  "dgSpecHash": "0I9ki4qJw7E8VLP1WrAVoegcoxQq/idQfyZ0nL7MAkZkcmR9PuhDe+2eaqRc1Ul7omPKnO3EPJJoPGwem5G0ag==",
   "success": true,
   "projectFilePath": "C:\\Users\\muham\\OneDrive\\Belgeler\\GitHub\\Repay_Bank\\Repay_Bank\\Repay_Bank.BusinessLayer\\Repay_Bank.BusinessLayer.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\muham\\.nuget\\packages\\fluentvalidation\\11.7.1\\fluentvalidation.11.7.1.nupkg.sha512",
+    "C:\\Users\\muham\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.0\\fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
+    "C:\\Users\\muham\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.7.1\\fluentvalidation.dependencyinjectionextensions.11.7.1.nupkg.sha512",
     "C:\\Users\\muham\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\muham\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",
     "C:\\Users\\muham\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
