@@ -2,7 +2,7 @@
     "name": "datatables.net-fixedheader-bs",
     "description": "FixedHeader for DataTables with styling for [Bootstrap](http://getbootstrap.com/)",
     "main": [
-        "css/fixedHeader.bootstrap.css"
+        "~/register/css/fixedHeader.bootstrap.css"
     ],
     "keywords": [
         "fixed headers",

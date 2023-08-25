@@ -1,9 +1,9 @@
 define([
 	"./core",
 	"./var/pnum",
-	"./css/var/cssExpand",
-	"./css/var/isHidden",
-	"./css/defaultDisplay",
+	"./~/register/css/var/cssExpand",
+	"./~/register/css/var/isHidden",
+	"./~/register/css/defaultDisplay",
 	"./data/var/data_priv",
 
 	"./core/init",

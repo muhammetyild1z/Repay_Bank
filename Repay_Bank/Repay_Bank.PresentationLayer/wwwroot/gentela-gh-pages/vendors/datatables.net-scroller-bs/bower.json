@@ -2,7 +2,7 @@
     "name": "datatables.net-scroller-bs",
     "description": "Scroller for DataTables with styling for [Bootstrap](http://getbootstrap.com/)",
     "main": [
-        "css/scroller.bootstrap.css"
+        "~/register/css/scroller.bootstrap.css"
     ],
     "keywords": [
         "virtual scrolling",

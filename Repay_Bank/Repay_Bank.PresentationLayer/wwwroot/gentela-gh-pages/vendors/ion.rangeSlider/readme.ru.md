@@ -60,7 +60,7 @@
 * ion.rangeSlider.min.js
 
 Подключаем стили:
-* <a href="http://necolas.github.io/normalize.css/" target="_blank">normalize.css</a> (желательно, если он у вас еще не подключен)
+* <a href="http://necolas.github.io/normalize.~/register/css/" target="_blank">normalize.css</a> (желательно, если он у вас еще не подключен)
 * ion.rangeSlider.css
 
 Не забываем про скин. 5 скинов включены в архив. Выберите один:

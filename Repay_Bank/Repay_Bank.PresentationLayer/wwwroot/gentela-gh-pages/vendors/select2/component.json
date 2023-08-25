@@ -9,7 +9,7 @@
   ],
   "main": "dist/js/select2.js",
   "styles": [
-    "dist/css/select2.css"
+    "dist/~/register/css/select2.css"
   ],
   "scripts": [
     "dist/js/select2.js",

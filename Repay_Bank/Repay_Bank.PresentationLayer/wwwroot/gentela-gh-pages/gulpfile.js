@@ -23,7 +23,7 @@ gulp.task('scripts', function() {
 
 // TODO: Maybe we can simplify how sass compile the minify and unminify version
 var compileSASS = function (filename, options) {
-  return sass('src/scss/*.scss', options)
+  return sass('src/s~/register/css/*.scss', options)
         .pipe(autoprefixer('last 2 versions', '> 5%'))
         .pipe(concat(filename))
         .pipe(gulp.dest(DEST+'/css'))
@@ -53,7 +53,7 @@ gulp.task('watch', function() {
   // Watch .js files
   gulp.watch('src/js/*.js', ['scripts']);
   // Watch .scss files
-  gulp.watch('src/scss/*.scss', ['sass', 'sass-minify']);
+  gulp.watch('src/s~/register/css/*.scss', ['sass', 'sass-minify']);
 });
 
 // Default Task

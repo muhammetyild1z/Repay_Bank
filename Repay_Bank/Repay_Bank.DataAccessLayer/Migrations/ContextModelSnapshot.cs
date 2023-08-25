@@ -174,6 +174,9 @@ namespace Repay_Bank.DataAccessLayer.Migrations
                         .IsConcurrencyToken()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<int>("ConfirmCode")
+                        .HasColumnType("int");
+
                     b.Property<string>("CustomerImageUrl")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");

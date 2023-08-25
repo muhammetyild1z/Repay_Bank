@@ -3,7 +3,7 @@
     "description": "DataTables for jQuery with styling for [Bootstrap](http://getbootstrap.com/)",
     "main": [
         "js/dataTables.bootstrap.js",
-        "css/dataTables.bootstrap.css"
+        "~/register/css/dataTables.bootstrap.css"
     ],
     "keywords": [
         "filter",

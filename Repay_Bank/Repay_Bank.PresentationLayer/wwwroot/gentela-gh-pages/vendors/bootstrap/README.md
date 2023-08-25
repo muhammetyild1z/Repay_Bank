@@ -44,7 +44,7 @@ Within the download you'll find the following directories and files, logically g
 
 ```
 bootstrap/
-├── css/
+├── ~/register/css/
 │   ├── bootstrap.css
 │   ├── bootstrap.css.map
 │   ├── bootstrap.min.css

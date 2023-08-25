@@ -160,10 +160,10 @@ module.exports = function (grunt) {
           sourceMap: true,
           outputSourceFiles: true,
           sourceMapURL: '<%= pkg.name %>.css.map',
-          sourceMapFilename: 'dist/css/<%= pkg.name %>.css.map'
+          sourceMapFilename: 'dist/~/register/css/<%= pkg.name %>.css.map'
         },
         src: 'less/bootstrap.less',
-        dest: 'dist/css/<%= pkg.name %>.css'
+        dest: 'dist/~/register/css/<%= pkg.name %>.css'
       },
       compileTheme: {
         options: {
@@ -171,10 +171,10 @@ module.exports = function (grunt) {
           sourceMap: true,
           outputSourceFiles: true,
           sourceMapURL: '<%= pkg.name %>-theme.css.map',
-          sourceMapFilename: 'dist/css/<%= pkg.name %>-theme.css.map'
+          sourceMapFilename: 'dist/~/register/css/<%= pkg.name %>-theme.css.map'
         },
         src: 'less/theme.less',
-        dest: 'dist/css/<%= pkg.name %>-theme.css'
+        dest: 'dist/~/register/css/<%= pkg.name %>-theme.css'
       }
     },
 
@@ -186,16 +186,16 @@ module.exports = function (grunt) {
         options: {
           map: true
         },
-        src: 'dist/css/<%= pkg.name %>.css'
+        src: 'dist/~/register/css/<%= pkg.name %>.css'
       },
       theme: {
         options: {
           map: true
         },
-        src: 'dist/css/<%= pkg.name %>-theme.css'
+        src: 'dist/~/register/css/<%= pkg.name %>-theme.css'
       },
       docs: {
-        src: ['docs/assets/css/src/docs.css']
+        src: ['docs/assets/~/register/css/src/docs.css']
       },
       examples: {
         expand: true,
@@ -210,8 +210,8 @@ module.exports = function (grunt) {
         csslintrc: 'less/.csslintrc'
       },
       dist: [
-        'dist/css/bootstrap.css',
-        'dist/css/bootstrap-theme.css'
+        'dist/~/register/css/bootstrap.css',
+        'dist/~/register/css/bootstrap-theme.css'
       ],
       examples: [
         'docs/examples/**/*.css'
@@ -221,7 +221,7 @@ module.exports = function (grunt) {
           ids: false,
           'overqualified-elements': false
         },
-        src: 'docs/assets/css/src/docs.css'
+        src: 'docs/assets/~/register/css/src/docs.css'
       }
     },
 
@@ -235,20 +235,20 @@ module.exports = function (grunt) {
         advanced: false
       },
       minifyCore: {
-        src: 'dist/css/<%= pkg.name %>.css',
-        dest: 'dist/css/<%= pkg.name %>.min.css'
+        src: 'dist/~/register/css/<%= pkg.name %>.css',
+        dest: 'dist/~/register/css/<%= pkg.name %>.min.css'
       },
       minifyTheme: {
-        src: 'dist/css/<%= pkg.name %>-theme.css',
-        dest: 'dist/css/<%= pkg.name %>-theme.min.css'
+        src: 'dist/~/register/css/<%= pkg.name %>-theme.css',
+        dest: 'dist/~/register/css/<%= pkg.name %>-theme.min.css'
       },
       docs: {
         src: [
-          'docs/assets/css/ie10-viewport-bug-workaround.css',
-          'docs/assets/css/src/pygments-manni.css',
-          'docs/assets/css/src/docs.css'
+          'docs/assets/~/register/css/ie10-viewport-bug-workaround.css',
+          'docs/assets/~/register/css/src/pygments-manni.css',
+          'docs/assets/~/register/css/src/docs.css'
         ],
-        dest: 'docs/assets/css/docs.min.css'
+        dest: 'docs/assets/~/register/css/docs.min.css'
       }
     },
 
@@ -258,9 +258,9 @@ module.exports = function (grunt) {
       },
       dist: {
         expand: true,
-        cwd: 'dist/css/',
+        cwd: 'dist/~/register/css/',
         src: ['*.css', '!*.min.css'],
-        dest: 'dist/css/'
+        dest: 'dist/~/register/css/'
       },
       examples: {
         expand: true,
@@ -269,8 +269,8 @@ module.exports = function (grunt) {
         dest: 'docs/examples/'
       },
       docs: {
-        src: 'docs/assets/css/src/docs.css',
-        dest: 'docs/assets/css/src/docs.css'
+        src: 'docs/assets/~/register/css/src/docs.css',
+        dest: 'docs/assets/~/register/css/src/docs.css'
       }
     },
 

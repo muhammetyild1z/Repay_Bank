@@ -3,7 +3,7 @@
     "description": "Responsive for DataTables with styling for [Bootstrap](http://getbootstrap.com/)",
     "main": [
         "js/responsive.bootstrap.js",
-        "css/responsive.bootstrap.css"
+        "~/register/css/responsive.bootstrap.css"
     ],
     "keywords": [
         "responsive",

@@ -316,7 +316,7 @@ and dependencies (minified).
 			},
 			/* 
 			scrollbar theme 
-			values: string (see CSS/plugin URI for a list of ready-to-use themes)
+			values: string (see ~/register/css/plugin URI for a list of ready-to-use themes)
 			*/
 			theme:"light",
 			/*

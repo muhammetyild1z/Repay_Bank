@@ -66,7 +66,7 @@
 
 * Add vertical progressbars
 * Add right alignment
-* Move styles to css/less
+* Move styles to ~/register/css/less
 * Fix some code formatting
 * Fix different font sizes
 

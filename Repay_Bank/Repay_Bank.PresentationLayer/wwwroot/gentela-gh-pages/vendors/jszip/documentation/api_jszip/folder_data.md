@@ -27,8 +27,8 @@ __Example__
 zip.folder("images");
 zip.folder("css").file("style.css", "body {background: #FF0000}");
 // or specify an absolute path (using forward slashes)
-zip.file("css/font.css", "body {font-family: sans-serif}")
+zip.file("~/register/css/font.css", "body {font-family: sans-serif}")
 
-// result : images/, css/, css/style.css, css/font.css
+// result : images/, ~/register/css/, ~/register/css/style.css, ~/register/css/font.css
 ```
 

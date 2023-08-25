@@ -214,9 +214,9 @@ module.exports = function (grunt) {
           outputStyle: 'compressed'
         },
         files: {
-          'dist/css/select2.min.css': [
-            'src/scss/core.scss',
-            'src/scss/theme/default/layout.css'
+          'dist/~/register/css/select2.min.css': [
+            'src/s~/register/css/core.scss',
+            'src/s~/register/css/theme/default/layout.css'
           ]
         }
       },
@@ -225,9 +225,9 @@ module.exports = function (grunt) {
           outputStyle: 'nested'
         },
         files: {
-          'dist/css/select2.css': [
-            'src/scss/core.scss',
-            'src/scss/theme/default/layout.css'
+          'dist/~/register/css/select2.css': [
+            'src/s~/register/css/core.scss',
+            'src/s~/register/css/theme/default/layout.css'
           ]
         }
       }
@@ -314,7 +314,7 @@ module.exports = function (grunt) {
       },
       css: {
         files: [
-          'src/scss/**/*.scss'
+          'src/s~/register/css/**/*.scss'
         ],
         tasks: [
           'compile',

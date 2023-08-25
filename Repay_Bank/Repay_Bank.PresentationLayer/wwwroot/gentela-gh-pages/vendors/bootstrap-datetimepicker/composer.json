@@ -21,7 +21,7 @@
       ],
       "files": [
         "build/js/bootstrap-datetimepicker.min.js",
-        "build/css/bootstrap-datetimepicker.min.css"
+        "build/~/register/css/bootstrap-datetimepicker.min.css"
       ]
     }
   }

@@ -274,7 +274,7 @@
 
     /**
      * Rotate the canvas to an absolute degree
-     * https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function#rotate()
+     * https://developer.mozilla.org/en-US/docs/Web/~/register/css/transform-function#rotate()
      *
      * @param {Number} degree
      */
@@ -290,7 +290,7 @@
 
     /**
      * Scale the image
-     * https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function#scale()
+     * https://developer.mozilla.org/en-US/docs/Web/~/register/css/transform-function#scale()
      *
      * @param {Number} scaleX
      * @param {Number} scaleY (optional)

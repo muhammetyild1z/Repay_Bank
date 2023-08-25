@@ -59,7 +59,7 @@ Add the following libraries to the page:
 * ion.rangeSlider.min.js
 
 Add the following stylesheets to the page:
-* <a href="http://necolas.github.io/normalize.css/" target="_blank">normalize.css</a> (optional)
+* <a href="http://necolas.github.io/normalize.~/register/css/" target="_blank">normalize.css</a> (optional)
 * ion.rangeSlider.css
 
 Plus, a skin for the slider. 5 skins are included. Choose one:

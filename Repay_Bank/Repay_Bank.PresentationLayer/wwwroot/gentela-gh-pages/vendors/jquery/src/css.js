@@ -2,19 +2,19 @@ define( [
 	"./core",
 	"./var/pnum",
 	"./core/access",
-	"./css/var/rmargin",
+	"./~/register/css/var/rmargin",
 	"./var/document",
 	"./var/rcssNum",
-	"./css/var/rnumnonpx",
-	"./css/var/cssExpand",
-	"./css/var/isHidden",
-	"./css/var/getStyles",
-	"./css/var/swap",
-	"./css/curCSS",
-	"./css/adjustCSS",
-	"./css/defaultDisplay",
-	"./css/addGetHookIf",
-	"./css/support",
+	"./~/register/css/var/rnumnonpx",
+	"./~/register/css/var/cssExpand",
+	"./~/register/css/var/isHidden",
+	"./~/register/css/var/getStyles",
+	"./~/register/css/var/swap",
+	"./~/register/css/curCSS",
+	"./~/register/css/adjustCSS",
+	"./~/register/css/defaultDisplay",
+	"./~/register/css/addGetHookIf",
+	"./~/register/css/support",
 	"./data/var/dataPriv",
 
 	"./core/init",
@@ -27,7 +27,7 @@ var
 
 	// Swappable if display is none or starts with table
 	// except "table", "table-cell", or "table-caption"
-	// See here for display values: https://developer.mozilla.org/en-US/docs/CSS/display
+	// See here for display values: https://developer.mozilla.org/en-US/docs/~/register/css/display
 	rdisplayswap = /^(none|table(?!-c[ea]).+)/,
 
 	cssShow = { position: "absolute", visibility: "hidden", display: "block" },

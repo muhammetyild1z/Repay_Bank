@@ -8,7 +8,7 @@
   "license": ["OFL-1.1", "MIT", "CC-BY-3.0"],
   "main": [
     "less/font-awesome.less",
-    "scss/font-awesome.scss"
+    "s~/register/css/font-awesome.scss"
   ],
   "ignore": [
     "*/.*",

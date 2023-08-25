@@ -3,7 +3,7 @@
     "description": "Buttons for DataTables with styling for [Bootstrap](http://getbootstrap.com/)",
     "main": [
         "js/buttons.bootstrap.js",
-        "css/buttons.bootstrap.css"
+        "~/register/css/buttons.bootstrap.css"
     ],
     "keywords": [
         "buttons",

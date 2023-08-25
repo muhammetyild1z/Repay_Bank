@@ -86,7 +86,7 @@ module.exports = function (grunt) {
                     paths: 'node_modules'
                 },
                 files: {
-                    'build/css/bootstrap-datetimepicker.min.css': 'src/less/bootstrap-datetimepicker-build.less'
+                    'build/~/register/css/bootstrap-datetimepicker.min.css': 'src/less/bootstrap-datetimepicker-build.less'
                 }
             },
             development: {
@@ -94,7 +94,7 @@ module.exports = function (grunt) {
                     paths: 'node_modules'
                 },
                 files: {
-                    'build/css/bootstrap-datetimepicker.css': 'src/less/bootstrap-datetimepicker-build.less'
+                    'build/~/register/css/bootstrap-datetimepicker.css': 'src/less/bootstrap-datetimepicker-build.less'
                 }
             }
         },
@@ -118,8 +118,8 @@ module.exports = function (grunt) {
                     helpers: 'test/*Helper.js',
                     host: 'http://127.0.0.1:8099',
                     styles: [
-                        'node_modules/bootstrap/dist/css/bootstrap.min.css',
-                        'build/css/bootstrap-datetimepicker.min.css'
+                        'node_modules/bootstrap/dist/~/register/css/bootstrap.min.css',
+                        'build/~/register/css/bootstrap-datetimepicker.min.css'
                     ],
                     vendor: [
                         'node_modules/jquery/dist/jquery.min.js',
