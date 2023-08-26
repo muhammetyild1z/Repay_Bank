@@ -10,5 +10,6 @@ namespace Repay_Bank.DTO.DTOS.AppUserDtos
     {
         public string UserId { get; set; }
         public int ConfirmCode { get; set; }
+        public int code { get; set; }
     }
 }

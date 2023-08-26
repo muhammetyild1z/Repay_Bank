@@ -1,4 +1,5 @@
 ﻿using MailKit.Net.Smtp;
+using Microsoft.AspNetCore.Diagnostics;
 using Microsoft.AspNetCore.Html;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
@@ -10,6 +11,8 @@ namespace Repay_Bank.PresentationLayer.Controllers
 {
     public class RegisterController : Controller
     {
+
+
         private readonly UserManager<AppUser> _userManager;
 
         public RegisterController(UserManager<AppUser> userManager)
@@ -27,9 +30,7 @@ namespace Repay_Bank.PresentationLayer.Controllers
         {
             if (ModelState.IsValid)
             {
-                Random rnd = new Random();
-                int code;
-                code = rnd.Next(100000, 1000000);
+
 
                 AppUser appUser = new AppUser()
                 {
@@ -37,7 +38,6 @@ namespace Repay_Bank.PresentationLayer.Controllers
                     CustomerName = appUserRegisterDto.Name,
                     CustomerSurname = appUserRegisterDto.Surname,
                     Email = appUserRegisterDto.Email,
-                    ConfirmCode = code,
                     District = "s",
                     CustomerImageUrl = "s",
                     City = "s"
@@ -46,29 +46,11 @@ namespace Repay_Bank.PresentationLayer.Controllers
                 };
                 var emailCheck = await _userManager.FindByEmailAsync(appUser.Email);
                 var result = await _userManager.CreateAsync(appUser, appUserRegisterDto.Password);
+
                 if (result.Succeeded && emailCheck == null)
                 {
-                    MimeMessage mimeMessage = new MimeMessage();
-                    MailboxAddress mailboxAddressFrom = new MailboxAddress("Replay Bank Admin", "mydzl1200@gmail.com");
-                    MailboxAddress mailboxAddresstTo = new MailboxAddress("User", appUser.Email);
-                    mimeMessage.From.Add(mailboxAddressFrom);
-                    mimeMessage.To.Add(mailboxAddresstTo);
 
-
-                    var bodyBuilder = new BodyBuilder();
-                    bodyBuilder.TextBody = "Merhaba" + appUser.UserName + "," + String.Format(">>>>")
-                    + "Kayit Olmak Icin Onay Kodu:" + code;
-                    mimeMessage.Body = bodyBuilder.ToMessageBody();
-
-                    mimeMessage.Subject = "Replay Bank Onay Kodu";
-
-                    SmtpClient client = new SmtpClient();
-                    client.Connect("smtp.gmail.com", 587, false);
-                    client.Authenticate("mydzl1200@gmail.com", "uisorzsawqhcjlih");
-                    client.Send(mimeMessage);
-                    client.Disconnect(true);
                     TempData["userId"] = appUser.Id;
-
                     return RedirectToAction("ConfirmMail", "Register");
                 }
                 else
@@ -84,21 +66,62 @@ namespace Repay_Bank.PresentationLayer.Controllers
             return View();
         }
         [HttpGet]
-        public IActionResult ConfirmMail()
+        public IActionResult MailConfirmed()
         {
             return View();
         }
+
+       
         [HttpPost]
-        public async Task<IActionResult>ConfirmMail(ConfirmMailViewModel confirmMailViewModel)
+        public async Task<IActionResult> MailConfirmed(ConfirmMailViewModel confirmMailViewModel)
+        {
+            Random rnd = new Random();
+            int code = rnd.Next(100000, 1000000);
+           
+            var appUser = await _userManager.FindByIdAsync(confirmMailViewModel.UserId);
+
+
+            MimeMessage mimeMessage = new MimeMessage();
+            MailboxAddress mailboxAddressFrom = new MailboxAddress("Replay Bank Admin", "mydzl1200@gmail.com");
+            MailboxAddress mailboxAddresstTo = new MailboxAddress("User", appUser.Email);
+            mimeMessage.From.Add(mailboxAddressFrom);
+            mimeMessage.To.Add(mailboxAddresstTo);
+
+
+            var bodyBuilder = new BodyBuilder();
+            bodyBuilder.TextBody = "Merhaba" + appUser.UserName + "," + String.Format(">>>>")
+            + "Kayit Olmak Icin Onay Kodu:" + code;
+            mimeMessage.Body = bodyBuilder.ToMessageBody();
+
+            mimeMessage.Subject = "Replay Bank Onay Kodu";
+
+            SmtpClient client = new SmtpClient();
+            client.Connect("smtp.gmail.com", 587, false);
+            client.Authenticate("mydzl1200@gmail.com", "uisorzsawqhcjlih");
+            client.Send(mimeMessage);
+            client.Disconnect(true);
+            TempData["UserId"] = confirmMailViewModel.UserId;
+            TempData["code"] = code;
+           
+            return View();
+
+
+        }
+
+
+        [HttpPost]
+        public async Task<IActionResult> ConfirmMail(ConfirmMailViewModel confirmMailViewModel)
         {
 
+
             var user = await _userManager.FindByIdAsync(confirmMailViewModel.UserId);
-            if (user.ConfirmCode==confirmMailViewModel.ConfirmCode)
+            if ( confirmMailViewModel.code== confirmMailViewModel.ConfirmCode)
             {
+                user.ConfirmCode = confirmMailViewModel.code;
                 user.EmailConfirmed = true;
                 await _userManager.UpdateAsync(user);
-                return RedirectToAction("Index", "Myprofile");
-                
+                return RedirectToAction("Index", "Login");
+
             }
 
             return View();

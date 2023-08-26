@@ -1,0 +1,36 @@
+﻿@model ConfirmMailViewModel
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>ConfirmMail</title>
+    <link href="~\lib\bootstrap\dist\css\bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container">
+        <br />
+        <br />
+        <form method="post" action="/Register/ConfirmMail">
+            <input hidden="hidden" asp-for="UserId" value="@TempData["UserId"]" />
+            <input hidden="hidden" asp-for="code" value="@TempData["code"]" />
+            <label>Mail Adresinize Gelen 6 Haneli Kodu Girin..</label>
+            <input type="text" class="form-control" asp-for="ConfirmCode" />
+            <button type="submit" class="btn btn-primary">Hesabi Aktiflestir</button>
+           
+        </form>
+        <form method="post" action="/Register/MailConfirmed">
+            <input hidden="hidden" asp-for="UserId" value="@TempData["UserId"]" />
+           @* <input asp-for="code" value="@TempData["code"]" />*@
+            
+            <button type="submit"  class="btn btn-primary">Kodu Gonder</button>
+        </form>
+        
+    </div>
+
+</body>
+</html>

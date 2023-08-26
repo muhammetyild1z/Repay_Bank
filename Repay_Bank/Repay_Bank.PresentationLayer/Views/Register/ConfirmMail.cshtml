@@ -20,7 +20,13 @@
             <label>Mail Adresinize Gelen 6 Haneli Kodu Girin..</label>
             <input type="text" class="form-control" asp-for="ConfirmCode" />
             <button type="submit" class="btn btn-primary">Hesabi Aktiflestir</button>
+           
         </form>
+        <form method="post" action="/Register/MailConfirmed">
+            <input hidden="hidden" asp-for="UserId" value="@TempData["UserId"]" />
+            <button type="submit"  class="btn btn-primary">Kodu Gonder</button>
+        </form>
+        
     </div>
 
 </body>
