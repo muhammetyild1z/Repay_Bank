@@ -17,6 +17,8 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="keywords" content="Existing Login Form Widget Responsive, Login Form Web Template, Flat Pricing Tables, Flat Drop-Downs, Sign-Up Web Templates, Flat Web Templates, Login Sign-up Responsive Web Template, Smartphone Compatible Web Template, Free Web Designs for Nokia, Samsung, LG, Sony Ericsson, Motorola Web Design">
     <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <!-- //Meta-Tags -->
 
     <link href="~/register/~/register/css/popuo-box.css" rel="stylesheet" type="text/css" media="all" />
@@ -38,6 +40,7 @@
     <div class="w3layoutscontaineragileits">
         <h2>Yeni Musteri Kaydi</h2>
         
+
             <input type="text" asp-for="Name" placeholder="Adiniz " required="">
             <input type="text" asp-for="Surname" placeholder="Soyadiniz" required="">
             <input type="text" asp-for="Username" placeholder="Kullanici Adiniz" required="">
@@ -48,7 +51,7 @@
                 <li>
                     <input type="checkbox" id="brand1" value="" class="col-3">
 
-                    <label for="brand2" class="col-9"><span></span><a class="w3_play_icon1" id="eee" ">Kullanici Sozlesmesini Okudum.</a></label>
+                    <label for="brand2" class="col-9"><span></span><button class="w3_play_icon1" id="myButton" ">Kullanici Sozlesmesini Okudum.</button></label>
                     @*<a href="#">Kullanici Sozlesmesini Okudum.</a>*@
                 </li>
             </ul>
@@ -58,8 +61,9 @@
                 <p> Hesabin Var Mi? <span>→</span> <a class="w3_play_icon1"> Giris Yap</a></p>
                 <div class="clear"></div>
             </div>
-     
 
+        </form>
+       
 
 
     </div>
@@ -73,44 +77,7 @@
 
     <script type="text/javascript" src="~/register/js/jquery-2.1.4.min.js"></script>
 
-    <!-- pop-up-box-js-file -->
-    <script src="~/register/js/jquery.magnific-popup.js" type="text/javascript"></script>
-    <!--//pop-up-box-js-file -->
-    <!-- for register popup -->
-    <div id="small-dialog1" class="mfp-hide" hidden="hidden">
-        <div class="contact-form1">
-            <div class="contact-w3-agileits">
-                                                                  
-
-                <div id="sozlesme" title="Kullanici Sozlesmesi">
-                    <p>
-                        Bu bölüm açıklama kısmını içermektedir. Açıklamalarınızı buraya yazabilirsiniz.
-                    </p>
-
-
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- //for register popup -->
-    <script>
-        $(document).ready(function () {
-            $('.w3_play_icon,.w3_play_icon1,.w3_play_icon2').magnificPopup({
-                type: 'inline',
-                fixedContentPos: false,
-                fixedBgPos: true,
-                overflowY: 'auto',
-                closeBtnInside: true,
-                preloader: false,
-                midClick: true,
-                removalDelay: 300,
-                mainClass: 'my-mfp-zoom-in'
-            });
-
-        });
-
-
-    </script>
+   
 
 
 </body>
