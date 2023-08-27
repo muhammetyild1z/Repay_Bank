@@ -41,10 +41,12 @@
 			<input type="text" asp-for="Username" placeholder="Kullanici adi" required="">
 			
 			<input type="password" asp-for="Password" placeholder="Sifre" required="">
-			<ul class="agileinfotickwthree">
+			<ul class="">
+				@*agileinfotickwthree*@
 				<li>
-					<input type="checkbox" id="brand12" value="@Model.RememberMe" asp-for="RememberMe">
-					<label for="brand1"><span></span>Beni Hatirla</label>
+					@Html.CheckBoxFor(x => x.RememberMe , new { @class = "form-control" })
+					@*<input type="checkbox" id="brand12" value="" asp-for="RememberMe">*@
+					<label for="brand1" class="ml-5"><span></span>Beni Hatirla</label>
 					<a href="#">Sifreni Mi Unuttun?</a>
 				</li>
 			</ul>

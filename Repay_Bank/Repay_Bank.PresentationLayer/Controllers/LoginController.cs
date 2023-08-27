@@ -23,6 +23,7 @@ namespace Repay_Bank.PresentationLayer.Controllers
         [HttpPost]
         public async Task< IActionResult> Index(LoginViewModel loginViewModel)
         {
+            
             var result = await _signinManager.PasswordSignInAsync(loginViewModel.Username, loginViewModel.Password, loginViewModel.RememberMe, false);
             if (result.Succeeded)
             {

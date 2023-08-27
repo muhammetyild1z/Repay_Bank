@@ -28,6 +28,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/muham/OneDrive/Belgeler/GitHub/Repay_Bank/Repay_Bank/Repay_Bank.PresentationLayer/Views/MyProfile/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTXlQcm9maWxlXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/muham/OneDrive/Belgeler/GitHub/Repay_Bank/Repay_Bank/Repay_Bank.PresentationLayer/Views/Register/ConfirmMail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0ZXJcQ29uZmlybU1haWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -38,6 +42,26 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/muham/OneDrive/Belgeler/GitHub/Repay_Bank/Repay_Bank/Repay_Bank.PresentationLayer/Views/Register/MailConfirmed.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0ZXJcTWFpbENvbmZpcm1lZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/muham/OneDrive/Belgeler/GitHub/Repay_Bank/Repay_Bank/Repay_Bank.PresentationLayer/Views/Shared/Components/_CustomerLayoutFooterPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0N1c3RvbWVyTGF5b3V0Rm9vdGVyUGFydGlhbFxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/muham/OneDrive/Belgeler/GitHub/Repay_Bank/Repay_Bank/Repay_Bank.PresentationLayer/Views/Shared/Components/_CustomerLayoutHeaderPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0N1c3RvbWVyTGF5b3V0SGVhZGVyUGFydGlhbFxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/muham/OneDrive/Belgeler/GitHub/Repay_Bank/Repay_Bank/Repay_Bank.PresentationLayer/Views/Shared/Components/_CustomerLayoutNavbarPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0N1c3RvbWVyTGF5b3V0TmF2YmFyUGFydGlhbFxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/muham/OneDrive/Belgeler/GitHub/Repay_Bank/Repay_Bank/Repay_Bank.PresentationLayer/Views/Shared/Components/_CustomerLayoutScriptPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0N1c3RvbWVyTGF5b3V0U2NyaXB0UGFydGlhbFxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/muham/OneDrive/Belgeler/GitHub/Repay_Bank/Repay_Bank/Repay_Bank.PresentationLayer/Views/Shared/Components/_CustomerLayoutSidebarPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0N1c3RvbWVyTGF5b3V0U2lkZWJhclBhcnRpYWxcRGVmYXVsdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/muham/OneDrive/Belgeler/GitHub/Repay_Bank/Repay_Bank/Repay_Bank.PresentationLayer/Views/Shared/Error.cshtml]
