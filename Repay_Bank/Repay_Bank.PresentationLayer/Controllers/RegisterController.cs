@@ -51,7 +51,7 @@ namespace Repay_Bank.PresentationLayer.Controllers
                 {
 
                     TempData["userId"] = appUser.Id;
-                    return RedirectToAction("ConfirmMail", "Register");
+                    return RedirectToAction("MailConfirmed", "Register");
                 }
                 else
                 {

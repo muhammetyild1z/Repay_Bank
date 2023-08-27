@@ -39,7 +39,7 @@
 
     <div class="w3layoutscontaineragileits">
         <h2>Yeni Musteri Kaydi</h2>
-        
+        <form method="post" action="/Register/Index">
 
             <input type="text" asp-for="Name" placeholder="Adiniz " required="">
             <input type="text" asp-for="Surname" placeholder="Soyadiniz" required="">
@@ -51,7 +51,7 @@
                 <li>
                     <input type="checkbox" id="brand1" value="" class="col-3">
 
-                    <label for="brand2" class="col-9"><span></span><button class="w3_play_icon1" id="myButton" ">Kullanici Sozlesmesini Okudum.</button></label>
+                    <label for="brand2" class="col-9"><span></span><a class="w3_play_icon1" onclick="window.alert("sometext")">Kullanici Sozlesmesini Okudum.</a></label>
                     @*<a href="#">Kullanici Sozlesmesini Okudum.</a>*@
                 </li>
             </ul>
