@@ -30,7 +30,7 @@ namespace Repay_Bank.PresentationLayer.Controllers
                 var mailCheck = await _userManager.FindByNameAsync(loginViewModel.Username);
 				if (mailCheck.EmailConfirmed==true)
 				{
-					return RedirectToAction("Index", "MyProfile");
+					return RedirectToAction("Index", "MyAccount");
                 }
                 else
                 {

@@ -38,6 +38,7 @@ namespace Repay_Bank.PresentationLayer.Controllers
                     CustomerName = appUserRegisterDto.Name,
                     CustomerSurname = appUserRegisterDto.Surname,
                     Email = appUserRegisterDto.Email,
+                    PhoneNumber= appUserRegisterDto.PhoneNumber,    
                     District = "s",
                     CustomerImageUrl = "s",
                     City = "s"
