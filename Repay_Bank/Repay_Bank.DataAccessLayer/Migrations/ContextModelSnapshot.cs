@@ -298,7 +298,17 @@ namespace Repay_Bank.DataAccessLayer.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<int?>("ReceiverID")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("SenderID")
+                        .HasColumnType("int");
+
                     b.HasKey("CustomerAccountProcessID");
+
+                    b.HasIndex("ReceiverID");
+
+                    b.HasIndex("SenderID");
 
                     b.ToTable("CustomerAccountProcesses");
                 });
@@ -365,9 +375,31 @@ namespace Repay_Bank.DataAccessLayer.Migrations
                     b.Navigation("AppUser");
                 });
 
+            modelBuilder.Entity("Repay_Bank.EntityLayer.Concrete.CustomerAccountProcess", b =>
+                {
+                    b.HasOne("Repay_Bank.EntityLayer.Concrete.CustomerAccount", "ReceiverCustomer")
+                        .WithMany("CustomerReceiver")
+                        .HasForeignKey("ReceiverID");
+
+                    b.HasOne("Repay_Bank.EntityLayer.Concrete.CustomerAccount", "SenderCustomer")
+                        .WithMany("CustomerSender")
+                        .HasForeignKey("SenderID");
+
+                    b.Navigation("ReceiverCustomer");
+
+                    b.Navigation("SenderCustomer");
+                });
+
             modelBuilder.Entity("Repay_Bank.EntityLayer.Concrete.AppUser", b =>
                 {
                     b.Navigation("CustomerAccounts");
+                });
+
+            modelBuilder.Entity("Repay_Bank.EntityLayer.Concrete.CustomerAccount", b =>
+                {
+                    b.Navigation("CustomerReceiver");
+
+                    b.Navigation("CustomerSender");
                 });
 #pragma warning restore 612, 618
         }
