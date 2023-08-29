@@ -1,4 +1,8 @@
+using Repay_Bank.BusinessLayer.Abstract;
+using Repay_Bank.BusinessLayer.Concrate;
+using Repay_Bank.DataAccessLayer.Abstract;
 using Repay_Bank.DataAccessLayer.Concrete;
+using Repay_Bank.DataAccessLayer.EntityFramwork;
 using Repay_Bank.DTO.DTOS.AppUserDtos;
 using Repay_Bank.EntityLayer.Concrete;
 
@@ -8,20 +12,23 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 //
 builder.Services.AddDbContext<Context>();
-builder.Services.AddIdentity<AppUser,AppRole>(
+builder.Services.AddIdentity<AppUser, AppRole>(
     opt =>
     {
-        opt.Password.RequireNonAlphanumeric= false;
-        opt.Password.RequiredLength=3;
+        opt.Password.RequireNonAlphanumeric = false;
+        opt.Password.RequiredLength = 3;
         opt.Password.RequireUppercase = false;
         opt.Password.RequireLowercase = false;
-		opt.Password.RequireDigit = false;
-		// opt.SignIn.RequireConfirmedEmail = true;//mail doðrulamasý olsun mu
+        opt.Password.RequireDigit = false;
+        // opt.SignIn.RequireConfirmedEmail = true;//mail doðrulamasý olsun mu
 
-	}
-	)
-    .AddErrorDescriber<CustomerIdentityValidation>()    
+    }
+    )
+    .AddErrorDescriber<CustomerIdentityValidation>()
     .AddEntityFrameworkStores<Context>();
+
+builder.Services.AddScoped<ICustomerAccountProcessDAL, efCustomerAccountProcessDal>();
+builder.Services.AddScoped<ICustomerAccountProcessService, CustomerAccountProcessManager>();
 
 
 var app = builder.Build();

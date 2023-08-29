@@ -18,6 +18,7 @@ namespace Repay_Bank.BusinessLayer.Concrate
             _ICustomerAccountProcessDAL = ıCustomerAccountProcessDAL;
         }
 
+       
         public void TDelete(CustomerAccountProcess entity)
         {
             _ICustomerAccountProcessDAL.Delete(entity);

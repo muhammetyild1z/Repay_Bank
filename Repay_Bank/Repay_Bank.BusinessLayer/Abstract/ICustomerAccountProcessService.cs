@@ -9,5 +9,6 @@ namespace Repay_Bank.BusinessLayer.Abstract
 {
     public interface ICustomerAccountProcessService:IGenericService<CustomerAccountProcess>
     {
+      
     }
 }

@@ -9,6 +9,6 @@ namespace Repay_Bank.DataAccessLayer.Abstract
 {
     public interface ICustomerAccountProcessDAL:IGenericDAL<CustomerAccountProcess>
     {
-
+      
     }
 }
