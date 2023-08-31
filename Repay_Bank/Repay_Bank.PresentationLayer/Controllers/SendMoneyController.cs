@@ -19,8 +19,10 @@ namespace Repay_Bank.PresentationLayer.Controllers
         }
 
         [HttpGet]
-        public IActionResult Index()
+        public IActionResult Index(string mycurrency)
         {
+            ViewBag.mycurrency = mycurrency;
+            TempData["mycurrency"] = mycurrency;
             return View();
         }
 
@@ -32,21 +34,17 @@ namespace Repay_Bank.PresentationLayer.Controllers
             var user = await _userManager.FindByNameAsync(User.Identity.Name);
             var receiverAccountNumberID = context.CustomerAccounts.Where(x => x.CustomerAccountNumber == sendMoneyForCustomerAccountProcessDto.ReceiverAccountNumber)
                 .Select(x => x.CustomerID).FirstOrDefault();
-
-
-            //sendMoneyForCustomerAccountProcessDto.SenderID = user.Id;
-            //sendMoneyForCustomerAccountProcessDto.ProcessDate = Convert.ToDateTime(DateTime.Now.ToShortDateString());
-            //sendMoneyForCustomerAccountProcessDto.ProcessType = "Havale";
-
+            var a = TempData["mycurrency"];
+            var senderAccountNumber = context.CustomerAccounts.Where(x => x.AppUserID == user.Id).Where(x => x.CustomerAccountCurrency == a).Select(x => x.CustomerID).FirstOrDefault();
             //automapper guncellenecek
             var values = new CustomerAccountProcess();
 
             values.ProcessDate = Convert.ToDateTime(DateTime.Now.ToShortDateString());
-            values.SenderID = 1;
+            values.SenderID = senderAccountNumber;
             values.ProcessType = "Havale";
             values.ReceiverID = receiverAccountNumberID;
             values.Amount = sendMoneyForCustomerAccountProcessDto.Amount;
-             _accountProcessService.TInsert(values);
+            _accountProcessService.TInsert(values);
 
             return RedirectToAction("Index", "test");
         }
