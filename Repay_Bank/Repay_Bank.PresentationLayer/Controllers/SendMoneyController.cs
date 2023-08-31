@@ -34,12 +34,21 @@ namespace Repay_Bank.PresentationLayer.Controllers
                 .Select(x => x.CustomerID).FirstOrDefault();
 
 
-            sendMoneyForCustomerAccountProcessDto.SenderID = user.Id;
-            sendMoneyForCustomerAccountProcessDto.ProcessDate = Convert.ToDateTime(DateTime.Now.ToShortDateString());
-            sendMoneyForCustomerAccountProcessDto.ProcessType = "Havale";
-           //automapper _accountProcessService.TInsert();
+            //sendMoneyForCustomerAccountProcessDto.SenderID = user.Id;
+            //sendMoneyForCustomerAccountProcessDto.ProcessDate = Convert.ToDateTime(DateTime.Now.ToShortDateString());
+            //sendMoneyForCustomerAccountProcessDto.ProcessType = "Havale";
 
-            return RedirectToAction("Index","test");
+            //automapper guncellenecek
+            var values = new CustomerAccountProcess();
+
+            values.ProcessDate = Convert.ToDateTime(DateTime.Now.ToShortDateString());
+            values.SenderID = 1;
+            values.ProcessType = "Havale";
+            values.ReceiverID = receiverAccountNumberID;
+            values.Amount = sendMoneyForCustomerAccountProcessDto.Amount;
+             _accountProcessService.TInsert(values);
+
+            return RedirectToAction("Index", "test");
         }
     }
 }
